@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex; /* Make sure the body is also a flex container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.container {
+  width: 100%; /* Make container take full width */
+  height: 100%; /* Make container take full height */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically within the container */
+  align-items: center; /* Center horizontally within the container */
+  text-align: center; /* Ensure the content is centered */
+}
+
+.word {
+  font-size: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px; /* Add space between the word and button */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  width: 200px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
